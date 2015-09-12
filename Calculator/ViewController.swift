@@ -19,6 +19,12 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     @IBAction func numberButtonPressed(sender: UIButton) {
         let number = sender.titleLabel!.text!.toInt()!
+        
+        //fixes = bug where it would just append to the end of the previous answer
+        if expressionLabel.text == "" {
+            calculation.leftNumber = nil
+        }
+        
         calculation.handleInput(number)
         updateLabels()
     }

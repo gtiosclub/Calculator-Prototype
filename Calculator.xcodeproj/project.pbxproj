@@ -162,6 +162,7 @@
 		2EE364E21BA35D520029E62D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Cal;
 				TargetAttributes = {
@@ -419,6 +420,7 @@
 				2EE3650B1BA35D520029E62D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2EE3650C1BA35D520029E62D /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +429,7 @@
 				2EE3650E1BA35D520029E62D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
